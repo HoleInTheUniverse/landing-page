@@ -52,6 +52,14 @@ header {
     align-items: center;
 }
 
+.container:nth-of-type(3) {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
@@ -160,6 +168,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 16px;
     padding: 72px 0;
     max-width: 800px;
     font-size: 36px;
@@ -171,4 +180,25 @@ h1 {
     align-self: flex-end;
     font-weight: 900;
     font-size: 24px;
+}
+
+#cta {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 36px;
+    color: #F9FAF8;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    border-radius: 12px;
+    color: #F9FAF8;
+    flex-shrink: 0;
+    height: 36px;
+    width: 128px;
 }
