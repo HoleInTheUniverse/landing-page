@@ -28,20 +28,24 @@ ul {
     list-style: none;
 }
 
-header, footer {
-    background-color: #1F2937;
-}
-
 header {
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+
+footer {
+    background-color: #1F2937;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
+
 .container, .hero, header, footer {
-    padding: 0 128px;
+    padding-left: 128px;
+    padding-right: 128px;
 }
 
 .container:nth-of-type(2) {
@@ -201,4 +205,11 @@ h1 {
     flex-shrink: 0;
     height: 36px;
     width: 128px;
+}
+
+.copyright {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
